@@ -1,0 +1,32 @@
+.footer-cta {
+  padding: 3em 2em;
+  background: var(--accent);
+}
+
+.footer-cta .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-cta-title {
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-title);
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.footer-cta-btn {
+  display: flex;
+  align-items: center;
+  padding: 0.875em 1.75em;
+  margin-bottom: 0.7em;
+  background-color: hsl(240, 19%, 15%);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.1em;
+  line-height: 1.1;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.steps {
+  padding: 7em 0 0;
+  background: var(--bg-secondary);
+}
+
+.steps-title {
+  font-size: var(--fs-title);
+  text-align: left;
+}
+
+.steps-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  background: hsl(0, 0%, 82%);
+  gap: 2px;
+  border-top: 1px solid var(--bg-primary);
+
+}
+
+.step {
+  background: var(--bg-secondary);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: background 0.3s;
+    padding-top: 3em ;
+}
+
+.step:hover {
+  background: hsl(0, 0%, 100%);
+}
+
+.wide-step {
+  grid-column: span 2;
+}
+
+.step-num {
+  color: var(--text-tertiary);
+  font-family: var(--font-body);
+  font-size: 5.5rem;
+  font-weight: var(--fw-medium);
+  line-height: 1;
+  margin-bottom: -20px;
+}
+
+.accent-bar {
+  width: 36px;
+  height: 3px;
+  background: var(--accent);
+  margin-bottom: 1.25em;
+}
+
+.step-title {
+  margin-bottom: 1em;
+}
+
+.step-description {
+  color: var(--text-secondary);
+  margin-bottom: 1.5em;
+}
+
+.step-tag {
+  border: 1px solid var(--text-muted);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  font-size: var(--fs-sm);
+  letter-spacing: 0.1em;
+  padding: 0.375em 1em;
+}
+
+.step:hover .step-tag {
+  border-color: var(--accent);
+  color: hsl(45, 100%, 24%);
+}

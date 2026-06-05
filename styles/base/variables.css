@@ -1,0 +1,39 @@
+:root {
+  --header-height: 7em;
+  --container-padding: 2rem;
+
+  --bg-primary: hsl(240, 19%, 15%);
+  --bg-secondary: hsl(0, 0%, 96%);
+  --bg-tertiary: hsl(244, 9%, 35%);
+
+  --text-primary: hsl(240, 19%, 15%);
+  --text-secondary: hsl(240, 11%, 26%);
+  --text-tertiary: hsl(246, 12%, 70%);
+  --text-muted: hsl(249, 48%, 92%);
+  
+  --accent: hsl(45, 73%, 55%);
+
+
+  --font-body: 'BDO Grotesk', sans-serif;
+  --font-hero: 'Mango Grotesque', sans-serif;
+  
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 900;
+
+  --fs-xs: 0.6875rem;
+  --fs-sm: 0.75rem;
+  --fs-compact: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+
+  --fs-hero: clamp(4rem, 6.0094vw + 2.5915rem, 8rem);
+  --fs-eyebrow: clamp(2.5rem, 3.7559vw + 1.6197rem, 5rem);
+  --fs-title: clamp(2rem, 3.0047vw + 1.2958rem, 4rem);
+  --fs-subtitle: clamp(1.125rem, 0.7512vw + 0.9489rem, 1.625rem);
+  --fs-body: 1rem;
+
+}

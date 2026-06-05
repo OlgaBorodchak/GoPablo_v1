@@ -1,0 +1,121 @@
+.contact {
+  background-color: var(--accent);
+  padding-top: 7em;
+}
+
+.contact-header {
+  padding-bottom: 5em;
+}
+
+.contact-title span {
+  color: hsl(0, 0%, 100%);
+}
+
+.contact-eyebrow {
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-bottom: 1em;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-card {
+  padding: 1.5em 2em;
+  flex: 1;
+}
+
+.contact-card:not(:last-child) {
+  border-right: 2px solid #d4a828;
+}
+
+
+.contact-link,
+.contact-text {
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-2xl);
+  color: var(--text-primary);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 3em 1.5em;
+}
+
+.contact-form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.contact-field {
+  flex: 1;
+  margin-bottom: 4em;
+}
+
+.contact-input,
+.contact-textarea {
+  border: none;
+  border: 1px solid var(--text-tertiary);
+  outline: none;
+  width: 100%;
+  padding: 1em 0;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+.contact-input:focus {
+  border-image: linear-gradient(to right, hsl(45, 73%, 55%), hsl(240, 19%, 15%));
+  border-image-slice: 1;
+}
+
+.contact-input::placeholder {
+  color: transparent;
+}
+
+textarea {
+  resize: none;
+}
+
+.custom {
+  caret-color: var(--accent);
+  padding-left: 1em;
+}
+
+.contact-label {
+  font-family: var(--font-body);
+  font-size: var(--fs-compact);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.contact-privacy {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-privacy-text {
+  font-size: var(--fs-sm);
+  color: var(--text-tertiary);
+}
+
+.contact-btn {
+  border: none;
+  border: 1px solid var(--bg-primary);
+  background-color: hsl(0, 0%, 100%);
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  color: var(--text-primary);
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  padding: 0.5em 1em;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: var(--accent);
+  border: 1px solid var(--accent);
+}

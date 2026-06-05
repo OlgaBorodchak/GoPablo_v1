@@ -1,0 +1,71 @@
+.about {
+  background-color: var(--bg-secondary);
+  padding-top: 7em;
+}
+
+.about-header {
+  font-family: var(--font-hero);
+  font-weight: var(--fw-medium);
+  text-transform: uppercase;
+  font-size: var(--fs-title);
+  text-wrap: balance;
+  text-align: center;
+  padding: 0 0 1.3em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.benefits {
+  display: flex;
+  padding-bottom: 5.2em;
+  border-top: 1px solid var(--bg-primary);
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-right: 1.5em;
+}
+
+.benefit-title {
+  font-size: var(--fs-xl);
+}
+
+.benefit:not(:last-child) {
+  border-right: 1px solid var(--text-muted);
+}
+
+.benefit:not(:first-child) {
+  padding-left: 1.5rem;
+}
+
+.benefit span {
+  font-weight: var(--fw-medium);
+  color: var(--text-tertiary);
+  margin: 1em 0;
+}
+
+.icon-row {
+  display: flex;
+
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.divider {
+  width: 32px;
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 1em;
+}
+
+.benefit-badge {
+  font-family: var(--font-body);
+  font-size: 1.625rem;
+  font-weight: var(--fw-bold);
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 0.5em;
+}

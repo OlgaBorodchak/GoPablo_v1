@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'BDO Grotesk';
+  src: url('../assets/fonts/bdo-grotesk-font/BDOGrotesk-Light.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDO Grotesk';
+  src: url('../../assets/fonts/bdo-grotesk-font/BDOGrotesk-Regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDO Grotesk';
+  src: url('../../assets/fonts/bdo-grotesk-font/BDOGrotesk-Medium.woff2')
+    format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDO Grotesk';
+  src: url('../../assets/fonts/bdo-grotesk-font/BDOGrotesk-Black.woff2')
+    format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../../assets/fonts/mango-grotesque/MangoGrotesque-Light.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../../assets/fonts/mango-grotesque/MangoGrotesque-Regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

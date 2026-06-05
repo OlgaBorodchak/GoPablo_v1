@@ -1,0 +1,17 @@
+/* base */
+@import './base/variables.css';
+@import './base/typography.css';
+@import './base/reset.css';
+@import './base/global.css';
+
+/* sections */
+@import './sections/header.css';
+@import './sections/hero.css';
+@import './sections/services.css';
+@import './sections/steps.css';
+@import './sections/about.css';
+@import './sections/footer-cta.css';
+@import './sections/faq.css';
+@import './sections/contact.css';
+@import './sections/footer.css';
+@import './sections/responsive.css';
