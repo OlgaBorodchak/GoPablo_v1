@@ -20,6 +20,7 @@
 
 .contact-info {
   display: flex;
+  align-items: center;
 }
 
 .contact-card {
@@ -30,7 +31,6 @@
 .contact-card:not(:last-child) {
   border-right: 2px solid #d4a828;
 }
-
 
 .contact-link,
 .contact-text {
@@ -69,7 +69,11 @@
 }
 
 .contact-input:focus {
-  border-image: linear-gradient(to right, hsl(45, 73%, 55%), hsl(240, 19%, 15%));
+  border-image: linear-gradient(
+    to right,
+    hsl(45, 73%, 55%),
+    hsl(240, 19%, 15%)
+  );
   border-image-slice: 1;
 }
 
@@ -97,6 +101,7 @@ textarea {
   display: flex;
   justify-content: space-between;
 }
+
 .contact-privacy-text {
   font-size: var(--fs-sm);
   color: var(--text-tertiary);

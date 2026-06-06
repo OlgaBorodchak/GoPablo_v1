@@ -84,7 +84,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.3em 0;
-  border-top: 1px solid var(--bg-tertiary);
+  border-top: 1px solid var(--text-secondary);
 }
 
 .footer-copy,
