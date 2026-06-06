@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "description": "��#\u0000 \u0000G\u0000o\u0000P\u0000a\u0000b\u0000l\u0000o\u0000_\u0000v\u00001\u0000\r\u0000 \u0000",
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
+  "dependencies": {
     "vite": "^8.0.16"
-  }
+  },
+  "devDependencies": {}
 }
