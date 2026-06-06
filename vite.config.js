@@ -1,3 +1,3 @@
 export default {
-  base: '/GoPablo_v1/',
+  base: './GoPablo_v1/',
 }
