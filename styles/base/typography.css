@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BDO Grotesk';
-  src: url('../assets/fonts/bdo-grotesk-font/BDOGrotesk-Light.woff2')
+  src: url('../../assets/fonts/bdo-grotesk-font/BDOGrotesk-Light.woff2')
     format('woff2');
   font-weight: 300;
   font-style: normal;
