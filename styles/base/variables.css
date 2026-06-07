@@ -33,6 +33,7 @@
   --fs-hero: clamp(4rem, 6.0094vw + 2.5915rem, 8rem);
   --fs-eyebrow: clamp(2.5rem, 3.7559vw + 1.6197rem, 5rem);
   --fs-title: clamp(2rem, 3.0047vw + 1.2958rem, 4rem);
+  --fs-subtitle-lg: clamp(1.5rem, 2.2535vw + 0.9718rem, 3rem);
   --fs-subtitle: clamp(1.125rem, 0.7512vw + 0.9489rem, 1.625rem);
   --fs-body: 1rem;
 
