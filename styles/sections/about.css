@@ -62,7 +62,6 @@
 }
 
 .benefit-badge {
-  font-family: var(--font-body);
   font-size: 1.625rem;
   font-weight: var(--fw-bold);
   color: var(--accent);
