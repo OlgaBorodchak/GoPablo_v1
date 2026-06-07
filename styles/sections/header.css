@@ -30,13 +30,13 @@
 .nav-link {
   color: hsl(0, 0%, 100%);
   text-transform: uppercase;
-  font-weight: var(--weight-regular);
+  font-weight: var(--fw-light);
   padding: 0.625em;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--accent);
+  color: var(--text-accent);
 }
 
 .nav-toggle {
@@ -55,9 +55,11 @@
 .bar {
   height: 3px;
   width: 100%;
-  background-color: var(--accent);
+  background-color: var(--bg-accent);
   border-radius: 4px;
-  transition: transform 0.35s ease, opacity 0.2s ease;
+  transition:
+    transform 0.35s ease,
+    opacity 0.2s ease;
   transform-origin: center;
 }
 

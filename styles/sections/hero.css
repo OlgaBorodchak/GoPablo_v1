@@ -15,6 +15,7 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  pointer-events: none;
 }
 
 .hero-overlay {
@@ -45,7 +46,7 @@
 }
 
 .hero-content h1 span {
-  color: var(--accent);
+  color: var(--text-accent);
 }
 
 .hero-link {

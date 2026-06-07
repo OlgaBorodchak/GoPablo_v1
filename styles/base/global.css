@@ -44,12 +44,10 @@ main {
   font-weight: var(--fw-medium);
   font-size: var(--fs-eyebrow);
   text-transform: uppercase;
-  color: var(--text-tertiary);
+  color: var(--text-large-on-light);
   white-space: nowrap;
 }
 
 .accent-text {
-  color: var(--accent);
+  color: var(--text-accent);
 }
-
-

@@ -44,9 +44,8 @@
     <main>
       <section class="hero">
         <div class="container">
-          <video class="hero-video" autoplay loop muted playsinline preload="auto">
+          <video class="hero-video" autoplay loop muted playsinline preload="auto" aria-hidden="true">
             <source src="./assets/videos/couple-home-video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
           <div class="hero-overlay"></div>
           <div class="hero-content">
@@ -55,9 +54,11 @@
               <span>Ottawa</span> 
               families
             </h1>
-            <a href="#testimonials" class="hero-link">
+            <a href="#contact" class="hero-link">
               Book Consultation
-              <img src="./assets/icons/white_arrow.svg" width="16" height="14" alt="arrow" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 32 29" fill="none">
+                <path d="M28.7277 3.91683C28.7323 3.08842 28.0645 2.41313 27.2361 2.40855L13.7363 2.33378C12.9079 2.3292 12.2326 2.99704 12.228 3.82545C12.2234 4.65387 12.8912 5.32915 13.7197 5.33374L25.7195 5.40019L25.653 17.4C25.6484 18.2284 26.3163 18.9037 27.1447 18.9083C27.9731 18.9129 28.6484 18.245 28.653 17.4166L28.7277 3.91683ZM3.0005 27.8689L4.05527 28.9354L28.2825 4.97504L27.2278 3.90852L26.173 2.84201L1.94573 26.8024L3.0005 27.8689Z" fill="white"/>
+              </svg>
             </a>
           </div>
         </div>
@@ -71,7 +72,7 @@
           <div class="services-list">
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Bathroom Renovation</p>
+                <h3 class="services-item-title section-subtitle">Bathroom Renovation</h3>
                 <p class="services-item-text">
                   Everything from demo to handover — handled in-house with no subcontractors and no surprises.
                 </p>
@@ -94,7 +95,7 @@
             </div>
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Basement Renovation</p>
+                <h3 class="services-item-title section-subtitle">Basement Renovation</h3>
                 <p class="services-item-text">
                   From raw concrete to fully finished — a turnkey basement built around how your family lives.
                 </p>
@@ -117,7 +118,7 @@
             </div>
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Kitchen Renovation</p>
+                <h3 class="services-item-title section-subtitle">Kitchen Renovation</h3>
                 <p class="services-item-text">
                   A kitchen designed around how your family actually cooks, gathers, and lives.
                 </p>
@@ -140,7 +141,7 @@
             </div>
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Additional Services</p>
+                <h3 class="services-item-title section-subtitle">Additional Services</h3>
                 <p class="services-item-text">
                   Smaller in scope, not in quality — the finishing touches that make a house feel complete.
                 </p>
@@ -172,37 +173,37 @@
           </div>
           <div class="steps-list">
             <div class="step">
-              <p class="step-num">01</p>
+              <span class="step-num">01</span>
               <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Let's Chat</p>
+              <h3 class="step-title section-subtitle">Let's Chat</h3>
               <p class="step-description">We start with a quick call or visit anywhere in Ottawa — no pressure, just an honest conversation about your ideas.</p>
               <span class="step-tag">Free & no obligation</span>
             </div>
             <div class="step">
-              <p class="step-num">02</p>
+              <span class="step-num">02</span>
               <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Transparent Estimate</p>
+              <h3 class="step-title section-subtitle">Transparent Estimate</h3>
               <p class="step-description">You'll get a clear proposal with real numbers — not guesses — so you know exactly what to expect.</p>
               <span class="step-tag">No hidden fees</span>
             </div>
             <div class="step">
-              <p class="step-num">03</p>
+              <spam class="step-num">03</spam>
               <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Design & Plan Together</p>
+              <h3 class="step-title section-subtitle">Design & Plan Together</h3>
               <p class="step-description">Pick finishes, colours, and layouts you love — we'll guide you through every choice.</p>
               <span class="step-tag">Your vision, our expertise</span>
             </div>
             <div class="step wide-step">
-              <p class="step-num">04</p>
+              <span class="step-num">04</span>
               <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">We Build, You Relax</p>
+              <h3 class="step-title section-subtitle">We Build, You Relax</h3>
               <p class="step-description">Our crew shows up on time, keeps your home tidy, and updates you at every stage.</p>
               <span class="step-tag">On time, every time</span>
             </div>
             <div class="step">
-              <p class="step-num">05</p>
+              <span class="step-num">05</span>
               <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Final Touches & Smile</p>
+              <h3 class="step-title section-subtitle">Final Touches & Smile</h3>
               <p class="step-description">We walk you through your new space, fix any last details, and make sure you're 100% happy.</p>
               <span class="step-tag">100% satisfaction</span>
             </div>
@@ -223,8 +224,8 @@
               <div class="project-content">
                 <div class="project-content-info">
                   <span class="project-counter">01 / 04</span>
-                  <p class="project-badge">Bathroom Renovation</p>
-                  <h3 class="project-subtitle section-subtitle">Luxure Master Bath</h3>
+                  <h3 class="project-badge">Bathroom Renovation</h3>
+                  <h4 class="project-subtitle section-subtitle">Luxure Master Bath</h4>
                   <p class="project-location">Kanata, Ottawa</p>
                   <div class="project-divider divider"></div>
                   <p class="project-description">Full gut renovation — large-format marble-vein porcelain, heated floors, frameless glass shower, floating vanity. Completed in 3 weeks.</p>
@@ -240,6 +241,7 @@
           </div>
         </div>
       </section>
+      <section id="testimonials"></section>
       <section id="about" class="about">
         <div class="container">
           <h2 class="about-header">We’re proud to call Ottawa home. <br />
@@ -253,7 +255,7 @@
                 <h3 class="benefit-title section-subtitle">Local Team</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">Ottawa proud</p>
+              <h4 class="benefit-badge">Ottawa proud</h4>
               <p class="benefit-description">We live and work in this city. We know the neighbourhoods, 
                 the bylaws, and what Ottawa families actually need.
               </p>
@@ -265,7 +267,7 @@
                 <h3 class="benefit-title section-subtitle">Clear Updates</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">Always reachable</p>
+              <h4 class="benefit-badge">Always reachable</h4>
               <p class="benefit-description">You'll always know what's happening,
                 what's next, and why. No surprises, no radio silence — ever.
               </p>
@@ -277,7 +279,7 @@
                 <h3 class="benefit-title section-subtitle">Reliable Deadlines</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">On schedule</p>
+              <h4 class="benefit-badge">On schedule</h4>
               <p class="benefit-description">We set realistic timelines and deliver on them. 
                 Your project finishes when we said it would.
               </p>
@@ -289,7 +291,7 @@
                 <h3 class="benefit-title section-subtitle">No Hidden Fees</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">Honest quotes</p>
+              <h4 class="benefit-badge">Honest quotes</h4>
               <p class="benefit-description">The price we quote is the price you pay. 
                 Transparent estimates with no last-minute additions or surprises.
               </p>
@@ -586,8 +588,8 @@
             <button class="contact-btn" type="submit">send message</button>
             <div class="contact-privacy">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="vertical-align:-2px">
-                <rect x="3" y="11" width="18" height="13" rx="3" fill="#AAA8BB"/>
-                <path d="M8 11V7a4 4 0 0 1 8 0v4" fill="none" stroke="#AAA8BB" stroke-width="2.5" stroke-linecap="round"/>
+                <rect x="3" y="11" width="18" height="13" rx="3" fill="#595959"/>
+                <path d="M8 11V7a4 4 0 0 1 8 0v4" fill="none" stroke="#595959" stroke-width="2.5" stroke-linecap="round"/>
                 <circle cx="12" cy="17" r="2" fill="#ffffff" opacity="0.5"/>
               </svg>
               <span class="contact-privacy-text">Your info is kept private</span>
@@ -622,7 +624,7 @@
             <div class="footer-contact">
               <div class="footer-contact-group">
                 <p class="footer-contact-label">Call or Text</p>
-                <a class="footer-contact-link" href="tel:+19767855434">+1 976 785 5434</a>
+                <a class="footer-contact-link" href="tel:+14377747807">(437) 774-7807</a>
               </div>
               <div class="footer-contact-group">
                 <p class="footer-contact-label">Send Message</p>
@@ -638,7 +640,7 @@
             </div>
           </div>
           <div class="footer-bottom">
-            <p class="footer-copy">© 2025 GoPablo Renovation. All rights reserved.</p>
+            <p class="footer-copy">© 2026 GoPablo Renovation. All rights reserved.</p>
             <div class="footer-legal">
               <a class="footer-legal-link" href="">Privacy Policy</a>
               <a class="footer-legal-link" href="">Terms of Use</a>

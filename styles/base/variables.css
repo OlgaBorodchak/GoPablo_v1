@@ -2,21 +2,25 @@
   --header-height: 7em;
   --container-padding: 2rem;
 
-  --bg-primary: hsl(240, 19%, 15%);
-  --bg-secondary: hsl(0, 0%, 96%);
-  --bg-tertiary: hsl(244, 9%, 35%);
+  --bg-primary: #363636;
+  --bg-secondary: #f5f5f5;
+  --bg-accent: #e0b636;
 
-  --text-primary: hsl(240, 19%, 15%);
-  --text-secondary: hsl(240, 11%, 26%);
-  --text-tertiary: hsl(246, 12%, 70%);
-  --text-muted: hsl(249, 48%, 92%);
-  
-  --accent: hsl(45, 73%, 55%);
+  --text-primary: #363636;
+  --text-large-on-white: #909090;
+  --text-large-on-light: #707070;
+  --text-small-on-white: #595959;
+  --text-small-on-light: #525252;
+  --text-on-dark: #c7c7c7;
+  --text-accent: #e0b636;
 
+  --border-primary: #363636;
+  --border-secondary: #c7c7c7;
+  --border-on-dark: #525252;
 
   --font-body: 'BDO Grotesk', sans-serif;
   --font-hero: 'Mango Grotesque', sans-serif;
-  
+
   --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
@@ -36,5 +40,4 @@
   --fs-subtitle-lg: clamp(1.5rem, 2.2535vw + 0.9718rem, 3rem);
   --fs-subtitle: clamp(1.125rem, 0.7512vw + 0.9489rem, 1.625rem);
   --fs-body: 1rem;
-
 }

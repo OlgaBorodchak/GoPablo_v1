@@ -8,7 +8,7 @@
 }
 
 .services-list {
-  border-top: 1px solid var(--bg-primary);
+  border-top: 1px solid var(--border-primary);
 }
 
 .services-item {
@@ -20,11 +20,11 @@
 }
 
 .services-item:not(:last-child) {
-  border-bottom: 1px solid var(--text-muted);
+  border-bottom: 1px solid var(--border-secondary);
 }
 
 .services-item:hover .services-item-title {
-  color: var(--accent);
+  color: var(--text-accent);
 }
 
 .services-item:hover .services-item-cta {
@@ -51,16 +51,16 @@
 }
 
 .services-item-point {
-  border: 1px solid var(--text-muted);
+  border: 1px solid var(--border-secondary);
   padding: 0.25em 0.75em;
   font-size: var(--fs-compact);
-  color: var(--text-secondary);
+  color: var(--text-small-on-white);
 }
 
 .services-item-cta {
   width: 2.5em;
   height: 2.5em;
-  border: 1px solid var(--bg-primary);
+  border: 1px solid var(--border-primary);
   display: flex;
   align-items: center;
   justify-content: center;

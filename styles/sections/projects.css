@@ -7,7 +7,7 @@
 }
 
 .projects-list {
-  border-top: 1px solid var(--bg-primary);
+  border-top: 1px solid var(--border-primary);
 }
 
 .project {
@@ -38,15 +38,17 @@
 }
 
 .project-counter {
+  font-size: var(--fs-compact);
   font-weight: var(--fw-medium);
-  color: var(--text-tertiary);
+  color: var(--text-small-on-white);
 }
 
 .project-badge {
-  font-size: var(--fs-compact);
+  font-size: var(--fs-lg);
   font-weight: var(--fw-bold);
-  color: var(--accent);
+  color: var(--text-accent);
   line-height: 1;
+  letter-spacing: 0.2em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
@@ -57,19 +59,19 @@
 
 .project-location {
   text-transform: uppercase;
-  color: var(--text-tertiary);
+  color: var(--text-small-on-white);
 }
 
 .project-conten-cta {
-  border: 1px solid var(--bg-primary);
+  border: 1px solid var(--border-primary);
   display: flex;
   justify-content: center;
   width: 50%;
 }
 
 .project-conten-cta:hover {
-  background-color: var(--accent);
-  border: 1px solid var(--accent);
+  background-color: var(--text-accent);
+  border: 1px solid var(--text-accent);
 }
 
 .project-link {

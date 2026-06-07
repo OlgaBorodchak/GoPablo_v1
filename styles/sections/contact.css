@@ -1,5 +1,5 @@
 .contact {
-  background-color: var(--accent);
+  background-color: var(--bg-accent);
   padding-top: 7em;
 }
 
@@ -7,15 +7,20 @@
   padding-bottom: 5em;
 }
 
-.contact-title span {
-  color: hsl(0, 0%, 100%);
-}
-
 .contact-eyebrow {
   color: var(--text-primary);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   margin-bottom: 1em;
+}
+
+.contact-title span {
+  color: hsl(0, 0%, 100%);
+}
+
+.contact-description {
+  max-inline-size: 43ch;
+  align-self: flex-end;
 }
 
 .contact-info {
@@ -29,7 +34,7 @@
 }
 
 .contact-card:not(:last-child) {
-  border-right: 2px solid #d4a828;
+  border-right: 2px solid hsl(45, 68%, 49%);
 }
 
 .contact-link,
@@ -60,7 +65,7 @@
 .contact-input,
 .contact-textarea {
   border: none;
-  border: 1px solid var(--text-tertiary);
+  border: 1px solid var(--border-secondary);
   outline: none;
   width: 100%;
   padding: 1em 0;
@@ -81,19 +86,23 @@
   color: transparent;
 }
 
+.contact-field:hover .contact-label {
+  color: var(--text-accent);
+}
+
 textarea {
   resize: none;
 }
 
 .custom {
-  caret-color: var(--accent);
+  caret-color: var(--text-accent);
   padding-left: 1em;
 }
 
 .contact-label {
   font-family: var(--font-body);
   font-size: var(--fs-compact);
-  color: var(--text-secondary);
+  color: var(--text-small-on-white);
   text-transform: uppercase;
 }
 
@@ -104,12 +113,12 @@ textarea {
 
 .contact-privacy-text {
   font-size: var(--fs-sm);
-  color: var(--text-tertiary);
+  color: var(--text-small-on-white);
 }
 
 .contact-btn {
   border: none;
-  border: 1px solid var(--bg-primary);
+  border: 1px solid var(--border-primary);
   background-color: hsl(0, 0%, 100%);
   font-family: var(--font-body);
   text-transform: uppercase;
@@ -121,6 +130,6 @@ textarea {
 }
 
 .contact-btn:hover {
-  background-color: var(--accent);
-  border: 1px solid var(--accent);
+  background-color: var(--bg-accent);
+  border: 1px solid var(--bg-accent);
 }

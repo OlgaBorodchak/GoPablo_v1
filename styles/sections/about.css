@@ -18,7 +18,7 @@
 .benefits {
   display: flex;
   padding-bottom: 5.2em;
-  border-top: 1px solid var(--bg-primary);
+  border-top: 1px solid var(--border-primary);
 }
 
 .benefit {
@@ -28,12 +28,16 @@
   padding-right: 1.5em;
 }
 
+.benefit-description {
+  color: var(--text-small-on-light);
+}
+
 .benefit-title {
   font-size: var(--fs-xl);
 }
 
 .benefit:not(:last-child) {
-  border-right: 1px solid var(--text-muted);
+  border-right: 1px solid var(--border-secondary);
 }
 
 .benefit:not(:first-child) {
@@ -41,14 +45,13 @@
 }
 
 .benefit span {
-  font-weight: var(--fw-medium);
-  color: var(--text-tertiary);
+  font-weight: var(--fw-light);
+  color: var(--text-small-on-light);
   margin: 1em 0;
 }
 
 .icon-row {
   display: flex;
-
   align-items: center;
   gap: 1em;
   margin-bottom: 1em;
@@ -57,14 +60,14 @@
 .divider {
   width: 32px;
   height: 2px;
-  background: var(--accent);
+  background: var(--text-accent);
   margin-bottom: 1em;
 }
 
 .benefit-badge {
   font-size: 1.625rem;
   font-weight: var(--fw-bold);
-  color: var(--accent);
+  color: var(--text-accent);
   line-height: 1;
   margin-bottom: 0.5em;
 }

@@ -22,8 +22,8 @@
 .footer-social-link {
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--text-tertiary);
-  border: 1px solid var(--text-tertiary);
+  color: var(--text-on-dark);
+  border: 1px solid var(--border-on-dark);
   font-size: var(--fs-sm);
   padding: .5em 1em;
   transition: all 0.3s;
@@ -40,15 +40,19 @@
   gap: 0.3em; 
 }
 
+.footer-link {
+  text-transform: uppercase;
+}
+
 .footer-link,
 .footer-tagline {
-  color: var(--text-tertiary);
+  color: hsl(0, 0%, 100%);
   font-size: var(--fs-compact);
 }
 
 .footer-link:hover,
 .footer-contact-link:hover {
-  color: var(--accent);
+  color: var(--text-accent);
 }
 
 .footer-contact {
@@ -62,21 +66,21 @@
 }
 
 .footer-contact-label {
-  color: var(--bg-tertiary);
+  color: var(--text-on-dark);
   text-transform: uppercase;
   font-size: var(--fs-xs);
   letter-spacing: 0.1em;
 }
 
 .footer-contact-link {
-  color: var(--text-muted);
+  color: hsl(0, 0%, 100%);
   font-family: var(--font-body);
 
 }
 
 .footer-contact-text {
   font-size: var(--fs-compact);
-  color: var(--text-muted);
+  color: var(--text-on-dark);
 }
 
 .footer-bottom {
@@ -84,12 +88,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.3em 0;
-  border-top: 1px solid var(--text-secondary);
+  border-top: 1px solid var(--border-on-dark);
 }
 
 .footer-copy,
 .footer-legal-link {
-  color: var(--text-secondary);
+  color: var(--text-on-dark);
   font-size: var(--fs-xs);
 }
 
