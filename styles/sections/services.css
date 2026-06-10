@@ -1,10 +1,9 @@
 .services {
-  padding-top: 7em;
+  padding-top: var(--padding-top);
 }
 
 .services-title {
   font-size: var(--fs-title);
-  text-align: right;
 }
 
 .services-list {

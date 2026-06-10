@@ -1,6 +1,6 @@
 .contact {
   background-color: var(--bg-accent);
-  padding-top: 7em;
+  padding-top: var(--padding-top);
 }
 
 .contact-header {

@@ -4,7 +4,7 @@
 
 .faq-header {
   border-bottom: 1px solid var(--border-on-dark);
-  padding: 7em 0 0;
+  padding: var(--padding-top) 0 0;
 }
 
 .faq-title {
@@ -64,7 +64,7 @@
   gap: 1.5em;
   cursor: pointer;
   font-family: var(--font-body);
-  font-size: var(--fs-base);
+  font-size: var(--fs-body);
   color: var(--text-on-dark);
 }
 

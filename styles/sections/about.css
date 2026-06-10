@@ -1,6 +1,6 @@
 .about {
   background-color: var(--bg-secondary);
-  padding-top: 7em;
+  padding-top: var(--padding-top);
 }
 
 .about-header {
@@ -16,7 +16,8 @@
 }
 
 .benefits {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   padding-bottom: 5.2em;
   border-top: 1px solid var(--border-primary);
 }
@@ -24,7 +25,6 @@
 .benefit {
   display: flex;
   flex-direction: column;
-  flex: 1;
   padding-right: 1.5em;
 }
 

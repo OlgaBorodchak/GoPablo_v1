@@ -14,40 +14,23 @@
   justify-content: space-between;
 }
 
-.footer-socials {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-social-link {
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.footer-brand-description {
   color: var(--text-on-dark);
-  border: 1px solid var(--border-on-dark);
-  font-size: var(--fs-sm);
-  padding: .5em 1em;
-  transition: all 0.3s;
+  max-inline-size: 30ch;
+  margin-top: 2em;
 }
 
-.footer-social-link:hover {
-  color: hsl(0, 0%, 100%);
-}
-
-.footer-nav {
+.footer-nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0.3em; 
+  gap: 0.5em; 
 }
 
 .footer-link {
-  text-transform: uppercase;
-}
-
-.footer-link,
-.footer-tagline {
   color: hsl(0, 0%, 100%);
   font-size: var(--fs-compact);
+  text-transform: uppercase;
 }
 
 .footer-link:hover,
@@ -61,10 +44,6 @@
   justify-content: space-between;
 }
 
-.footer-contact-group:not(:last-child) {
-  padding-bottom: 1em;
-}
-
 .footer-contact-label {
   color: var(--text-on-dark);
   text-transform: uppercase;
@@ -75,12 +54,21 @@
 .footer-contact-link {
   color: hsl(0, 0%, 100%);
   font-family: var(--font-body);
-
 }
 
-.footer-contact-text {
-  font-size: var(--fs-compact);
+.footer-social-link {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
   color: var(--text-on-dark);
+  border: 1px solid var(--border-on-dark);
+  font-size: var(--fs-sm);
+  padding: .5em 1em;
+  transition: all 0.3s;
+}
+
+.footer-social-link:hover {
+  color: var(--text-accent);
 }
 
 .footer-bottom {
