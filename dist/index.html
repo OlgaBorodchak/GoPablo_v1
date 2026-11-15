@@ -15,8 +15,8 @@
     <link rel="shortcut icon" href="/assets/favicon-D6yLCUXA.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-D9aeWtrA.png"/>
     <link rel="manifest" href="/assets/site-DGWt2i2_.webmanifest" />
-    <script type="module" crossorigin src="/assets/index-DqI2YsPB.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Cm5AJPwH.css">
+    <script type="module" crossorigin src="/assets/index-DbR0M8rJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C4daqcSJ.css">
   </head>
   <body>
     <header class="header">
@@ -45,9 +45,8 @@
     <main>
       <section class="hero">
         <div class="container">
-          <video class="hero-video" autoplay loop muted playsinline preload="auto">
+          <video class="hero-video" autoplay loop muted playsinline preload="auto" aria-hidden="true">
             <source src="/assets/couple-home-video-BCX4GCBr.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
           <div class="hero-overlay"></div>
           <div class="hero-content">
@@ -56,9 +55,11 @@
               <span>Ottawa</span> 
               families
             </h1>
-            <a href="#testimonials" class="hero-link">
+            <a href="#contact" class="hero-link">
               Book Consultation
-              <img src="data:image/svg+xml,%3csvg%20width='32'%20height='29'%20viewBox='0%200%2032%2029'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M28.7277%203.91683C28.7323%203.08842%2028.0645%202.41313%2027.2361%202.40855L13.7363%202.33378C12.9079%202.3292%2012.2326%202.99704%2012.228%203.82545C12.2234%204.65387%2012.8912%205.32915%2013.7197%205.33374L25.7195%205.40019L25.653%2017.4C25.6484%2018.2284%2026.3163%2018.9037%2027.1447%2018.9083C27.9731%2018.9129%2028.6484%2018.245%2028.653%2017.4166L28.7277%203.91683ZM3.0005%2027.8689L4.05527%2028.9354L28.2825%204.97504L27.2278%203.90852L26.173%202.84201L1.94573%2026.8024L3.0005%2027.8689Z'%20fill='white'/%3e%3c/svg%3e" width="16" height="14" alt="arrow" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 32 29" fill="none">
+                <path d="M28.7277 3.91683C28.7323 3.08842 28.0645 2.41313 27.2361 2.40855L13.7363 2.33378C12.9079 2.3292 12.2326 2.99704 12.228 3.82545C12.2234 4.65387 12.8912 5.32915 13.7197 5.33374L25.7195 5.40019L25.653 17.4C25.6484 18.2284 26.3163 18.9037 27.1447 18.9083C27.9731 18.9129 28.6484 18.245 28.653 17.4166L28.7277 3.91683ZM3.0005 27.8689L4.05527 28.9354L28.2825 4.97504L27.2278 3.90852L26.173 2.84201L1.94573 26.8024L3.0005 27.8689Z" fill="white"/>
+              </svg>
             </a>
           </div>
         </div>
@@ -67,12 +68,12 @@
         <div class="container">
           <div class="services-header section-header">
             <p class="services-eyebrow section-eyebrow">What we do</p>
-            <h2 class="services-title section-title">Our <br> <span class="accent-text">Services</span></h2>
+            <h2 class="services-title section-title">Our<br><span class="accent-text">Services</span></h2>
           </div>
           <div class="services-list">
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Bathroom Renovation</p>
+                <h3 class="services-item-title section-subtitle">Bathroom Renovation</h3>
                 <p class="services-item-text">
                   Everything from demo to handover — handled in-house with no subcontractors and no surprises.
                 </p>
@@ -95,7 +96,7 @@
             </div>
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Basement Renovation</p>
+                <h3 class="services-item-title section-subtitle">Basement Renovation</h3>
                 <p class="services-item-text">
                   From raw concrete to fully finished — a turnkey basement built around how your family lives.
                 </p>
@@ -118,7 +119,7 @@
             </div>
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Kitchen Renovation</p>
+                <h3 class="services-item-title section-subtitle">Kitchen Renovation</h3>
                 <p class="services-item-text">
                   A kitchen designed around how your family actually cooks, gathers, and lives.
                 </p>
@@ -141,7 +142,7 @@
             </div>
             <div class="services-item">
               <div class="services-item-content">
-                <p class="services-item-title section-subtitle">Additional Services</p>
+                <h3 class="services-item-title section-subtitle">Additional Services</h3>
                 <p class="services-item-text">
                   Smaller in scope, not in quality — the finishing touches that make a house feel complete.
                 </p>
@@ -168,48 +169,92 @@
       <section id="steps" class="steps">
         <div class="container">
           <div class="steps-header section-header">
-            <h2 class="steps-title section-title">from <span class="accent-text">free</span> estimate to finished project</h2>
             <p class="steps-eyebrow section-eyebrow">how it works</p>
+            <h2 class="steps-title section-title"><span class="accent-text">free</span> <br> to finished</h2>
           </div>
           <div class="steps-list">
             <div class="step">
-              <p class="step-num">01</p>
-              <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Let's Chat</p>
+              <div class="step-num-wrap">
+                <span class="step-num">01</span>
+                <div class="accent-bar"></div>
+              </div>
+              <h3 class="step-title section-subtitle">Let's Chat</h3>
               <p class="step-description">We start with a quick call or visit anywhere in Ottawa — no pressure, just an honest conversation about your ideas.</p>
               <span class="step-tag">Free & no obligation</span>
             </div>
             <div class="step">
-              <p class="step-num">02</p>
-              <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Transparent Estimate</p>
+              <div class="step-num-wrap">
+                <span class="step-num">02</span>
+                <div class="accent-bar"></div>
+              </div>
+              <h3 class="step-title section-subtitle">Transparent Estimate</h3>
               <p class="step-description">You'll get a clear proposal with real numbers — not guesses — so you know exactly what to expect.</p>
               <span class="step-tag">No hidden fees</span>
             </div>
             <div class="step">
-              <p class="step-num">03</p>
-              <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Design & Plan Together</p>
+              <div class="step-num-wrap">
+                <span class="step-num">03</span>
+                <div class="accent-bar"></div>
+              </div>
+              <h3 class="step-title section-subtitle">Design & Plan Together</h3>
               <p class="step-description">Pick finishes, colours, and layouts you love — we'll guide you through every choice.</p>
               <span class="step-tag">Your vision, our expertise</span>
             </div>
             <div class="step wide-step">
-              <p class="step-num">04</p>
-              <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">We Build, You Relax</p>
+              <div class="step-num-wrap">
+                <span class="step-num">04</span>
+                <div class="accent-bar"></div>
+              </div>
+              <h3 class="step-title section-subtitle">We Build, You Relax</h3>
               <p class="step-description">Our crew shows up on time, keeps your home tidy, and updates you at every stage.</p>
               <span class="step-tag">On time, every time</span>
             </div>
-            <div class="step">
-              <p class="step-num">05</p>
-              <div class="accent-bar"></div>
-              <p class="step-title section-subtitle">Final Touches & Smile</p>
+            <div class="step wide-step-mobile">
+              <div class="step-num-wrap">
+                <span class="step-num">05</span>
+                <div class="accent-bar"></div>
+              </div>
+              <h3 class="step-title section-subtitle">Final Touches & Smile</h3>
               <p class="step-description">We walk you through your new space, fix any last details, and make sure you're 100% happy.</p>
               <span class="step-tag">100% satisfaction</span>
             </div>
           </div>
         </div>
       </section>
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="projects-header section-header">
+            <p class="project-eyebrow section-eyebrow">Our Work</p>
+            <h2 class="project-title section-title">Real <br> <span class="accent-text">Projects</span></h2>
+          </div>
+          <div class="projects-list">
+            <div class="project">
+              <div class="project-image-wrapper">
+                <img src="/assets/bath-main-NGsqMok-.jpg" class="project-image" alt="Luxury master bathroom renovation in Kanata, Ottawa">
+              </div>
+              <div class="project-content">
+                <div class="project-content-info">
+                  <span class="project-counter">01 / 04</span>
+                  <h3 class="project-badge">Bathroom Renovation</h3>
+                  <h4 class="project-subtitle section-subtitle">Luxure Master Bath</h4>
+                  <div class="project-divider-wrapper">
+                    <p class="project-location">Kanata, Ottawa</p>
+                    <div class="project-divider divider"></div>
+                  </div>
+                  <p class="project-description">Full gut renovation — large-format marble-vein porcelain, heated floors, frameless glass shower, floating vanity. Completed in 3 weeks.</p>
+                </div>
+                <div class="project-conten-cta">
+                  <a href="#" class="project-link">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials"></section>
       <section id="about" class="about">
         <div class="container">
           <h2 class="about-header">We’re proud to call Ottawa home. <br />
@@ -223,7 +268,7 @@
                 <h3 class="benefit-title section-subtitle">Local Team</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">Ottawa proud</p>
+              <h4 class="benefit-badge">Ottawa proud</h4>
               <p class="benefit-description">We live and work in this city. We know the neighbourhoods, 
                 the bylaws, and what Ottawa families actually need.
               </p>
@@ -235,7 +280,7 @@
                 <h3 class="benefit-title section-subtitle">Clear Updates</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">Always reachable</p>
+              <h4 class="benefit-badge">Always reachable</h4>
               <p class="benefit-description">You'll always know what's happening,
                 what's next, and why. No surprises, no radio silence — ever.
               </p>
@@ -247,7 +292,7 @@
                 <h3 class="benefit-title section-subtitle">Reliable Deadlines</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">On schedule</p>
+              <h4 class="benefit-badge">On schedule</h4>
               <p class="benefit-description">We set realistic timelines and deliver on them. 
                 Your project finishes when we said it would.
               </p>
@@ -259,7 +304,7 @@
                 <h3 class="benefit-title section-subtitle">No Hidden Fees</h3>
               </div>
               <div class="divider"></div>
-              <p class="benefit-badge">Honest quotes</p>
+              <h4 class="benefit-badge">Honest quotes</h4>
               <p class="benefit-description">The price we quote is the price you pay. 
                 Transparent estimates with no last-minute additions or surprises.
               </p>
@@ -269,8 +314,8 @@
       </section>
       <div class="footer-cta">
         <div class="container">
-          <p class="footer-cta-title">Ready to start your renovation? <br> Get a free estimate today.</p>
-          <a class="footer-cta-btn" href="#contact">Book free estimate
+          <p class="footer-cta-title">Ready to start your renovation?</p>
+          <a class="footer-cta-btn" href="#contact">Get free estimate
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M3 13L13 3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
               <path d="M5 3H13V11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -345,7 +390,7 @@
                 </div>
               </div>
             </div>
-             <div class="faq-section">
+            <div class="faq-section">
               <p class="faq-section-label">Pricing & Payments</p>
               <div class="faq-item">
                 <button class="faq-question" aria-expanded="false" aria-controls="a4" id="q4" type="button">
@@ -453,7 +498,7 @@
                 </div>
               </div>
             </div>
-             <div class="faq-section">
+            <div class="faq-section">
               <p class="faq-section-label">Materials & Design</p>
               <div class="faq-item">
                 <button class="faq-question" aria-expanded="false" aria-controls="a10" id="q10" type="button">
@@ -521,20 +566,20 @@
           </div>
           <div class="contact-info">
             <div class="contact-card">
-              <a class="contact-link" href="tel:+19767855434">+1 976 785 5434</a>
+              <a class="contact-link" href="tel:+19767855434">(437) 774-7807</a>
             </div>
             <div class="contact-card">
-              <a class="contact-link" href="mailto:email@gmail.com">email@gmail.com</a>
+              <a class="contact-link" href="mailto:">email@gmail.com</a>
             </div>
             <div class="contact-card">
-              <p class="contact-text">Ottawa, Nepean, Barrhaven, Kanata, Stittsville, Orleans</p>
+              <p class="contact-text">Ottawa - Nepean - Barrhaven - Kanata - Stittsville - Orleans</p>
             </div>
           </div>
         </div>
       </section>
       <div class="container">
         <form class="contact-form" action="https://formspree.io/f/xnqkygjk" method="post">
-          <div class="contact-form-row">
+          <div class="contact-form-row mobile-column">
             <div class="contact-field">
               <label for="name" class="contact-label">Name</label>
               <input class="contact-input custom" type="text" id="name" name="name" placeholder="name" autocomplete="off" required/>
@@ -552,12 +597,12 @@
             <label for="message" class="contact-label">Message</label>
             <textarea class="contact-input contact-textarea custom" cols="2" rows="2" name="message" id="message" placeholder="message" required></textarea>
           </div>
-          <div class="contact-form-row">
+          <div class="contact-form-row mobile-row">
             <button class="contact-btn" type="submit">send message</button>
             <div class="contact-privacy">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="vertical-align:-2px">
-                <rect x="3" y="11" width="18" height="13" rx="3" fill="#AAA8BB"/>
-                <path d="M8 11V7a4 4 0 0 1 8 0v4" fill="none" stroke="#AAA8BB" stroke-width="2.5" stroke-linecap="round"/>
+                <rect x="3" y="11" width="18" height="13" rx="3" fill="#595959"/>
+                <path d="M8 11V7a4 4 0 0 1 8 0v4" fill="none" stroke="#595959" stroke-width="2.5" stroke-linecap="round"/>
                 <circle cx="12" cy="17" r="2" fill="#ffffff" opacity="0.5"/>
               </svg>
               <span class="contact-privacy-text">Your info is kept private</span>
@@ -568,47 +613,43 @@
       <footer class="footer">
         <div class="container">
           <div class="footer-main">
-            <div class="footer-brand">
-              <img class="footer-logo" src="data:image/png;base64,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" width="136" height="82" alt="GoPablo Logo">
-              <p class="footer-tagline">
-                Renovations Ottawa families trust
-              </p>
-              <div class="footer-socials">
-                <a class="footer-social-link" href="">Instagram</a>
-                <a class="footer-social-link" href="">Facebook</a>
-              </div>
+            <div class="footer-social-group">
+              <a href="/" class="nav-logo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAABSCAYAAACPH5wbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAApmSURBVHgB7Z1Pb9s2FMCfZKdr13j3BAOWdkPS27C6LQbsUO+0/knQc/oBknube9N7snvyAZJz57bbUcMwYP3jDrs1xrZ2w+B8gAQomsTW+GTSZahHifpjR474A4Q4EkVR5OPjI/lIAVgsFovFYrGMHidJYN/3a+zPJP9333GcPchA3vFZaFg+T4nfLI93E9waLyC8EBfZ0WDHrHIZC9Rjx6bpg6X4FtgxlTQ+/rLTyun2aREuuTA5iSsOz+N56JdZnQjSYkeTxfs4Li4n5kEY+Ro7ahAPFupmTHwN9udBlvhYHKvQf3mZZRa2BfQzZ9m1NiREec42i2NdEw6F9QcwA9PRZIcXUQHwuiwkLRZ2GQzh6dmAcOWjwDxbiRJAN+JBdf4gk8JEltg99yPia4C5sMXGl4C7LJ4NomYmYRLyATUwvtMGz49cSSgcSJ2nRVsmbsTNq5CcRS5Yx+AJT1PYZHwpiM2IGOYgXzA/1oYgJEtgLhwCFNpF3UVSQFjCKfsAQVW0zQ5U/e2IRKrUDeLbTRBfGqYzxJWXBlF5kEFoj8Er4TxxSc5jnc2xqEtHVXPDvOb8Xant3ETVDWEjqI4PU9o10/i2IGwIU/GlBTNiK6klD2Gj2ASPHT/z31g5qEonDPZNyI5OC6zLxih7/z0iLKYD8z1kx+mamFniXIvIWJ1EXlf+p5oJylBrAk0ezYxgAVKQwobBnlWTHygAaGhSQp7Xu1Fltkf0VLY19zeokyEB4aqGUjdUk0L2HOT7ueoDw/h0zVaeKj5tgWRqClhBdeCDRpGp59TMUPnc1qSDgsxjSoPoEptExdfiHqxBp/rTqHgds5COtPfJJCqchGSNg8xjF4ZPLkZYjqRNTx7vMcwKMJR8HoWAnBby1GJjgxUQc4bV1S00VkDMsRrEEkmWofqxxQqIOUUztkeCFRBzankNi48TVkD0UOM+w2pmCuvLUoVs4ItR8wgtGH+oQkNDNbFviYROwJLODY2MTALCJ9DymGgqIlShZe3qUk1Up8jecLaJSUbWri45CQoFxgqIHmreJLUNwgxc9EWhJgoLrYGz2iCnGaqJSdKLWeSOV8ik5l5jZ++ToowCkqW9TzKjq3ObEGlA4diGgpNYQNBLHDTOJRItnZd5ATDqhaDfBHtX9XQe4yAoHA9Z/B6MAWk0CDrwxvl2Yrs61gLCwcKUhaKWg/sjxrfGlzd8X/T1PGU0UpsJwu4T50y7umhbtPhBCQHaJ2tQcMomIF7CRVS6wTIT0Bd1mR/fsv/XiTDobrgIBaZMAoLd1vUU96ik6upyg5Ry8s5rWcdQSCMgHvTVozgK3U3jYEEvp+hSUk1MFkPVo+Ljhn8hSWykcqNqoHoJS79ooM2xntIYzNLEUOiat1nINsczNE79OEjG7vaoZnQL661mR1IVuM+HUPlUczKMwiyst5oVkDDYq4gyHEvlvGwn68LEGaGlcl62AhImVt1n3GtkrLACEqaWU5hTgbVBwqgDWg+IMIXtluaNFRAFdZaVNSf3IKwxSqNBbBMTDzWaWhpDNQ8Biev2FXo62wAq/Xl3dQs7XZGHgMSp230wR9c7OEkhoybs0mqQYb5fViEj0+CaBgTi5QwnmYzjA72wnWQNowQ8bTdXt/1VHs5VRtMCEasDyTwOCYg6GSfRICK/CzHw+KiHUx7eDaDR7cwzCqi8MOoK43iJdNwHejO/TpqNfgkoIZsmyqwBNDvUSV0TQyUYH3SPv2yNO7rgC5vUbo84h4lfEi/A/s7DcDMwLaSAGKzTxfxpSofOMch42QN75kvlkHd49jS3rYmBPb7nrG4agdRi1YjAVA0XPiByOCRO5eLYApVBmNilGJeBk143oqsA+M5ZbYe2yX7pJuCsNcvHXQiXBZZjMyaPmzpfGZ0GMU001oxYDcJ31kvj4t/JKwOHQNauLlYu4z3YDUnqMYdELp8lBcSwQBMVHt8MP0lhB15gcPLkvTOhWBOznLdHOx/kS6JxxRIMbSWPGknFB4nPSqig9K/y3x47VP1F2gwsIatM1aExhMZtVLMUtSTAg3ChDdOIFd7pKuJLGaYL2DGeHQN7yoPjwicXnuqRH+ph4aa9vKmJ27cd32k9Lj0m34vBNqwB/URjgrw8FkXxeOU93DHuNo9/3AfXCgHPYxyKwOZQlB9WptYJG/4Wi8VisVgsFovFYrGcBIk+rDyuvH40V6tWzgeuCY7T3fv89h9t3XXki/lXg3Gev558Oev7lRqeE+GOuufal+78Ohir+fPx5brrusHclev6zZkbrcHgFneJwC8/7UqLso5951d8uFEeX+L3qROCg/vE94PVMSlpfCn4BrE8Sip9cziIh4ftRI2klsLl8MzEJ42qW91gx2rF+Wjr76dX7+uu4yFfY+HX8drrR9+wwvq4hr/PnX03EKZ/H301jedc15l1wV3we+6G8nicYhBuEeJTswO40OA51Tka71nl19b4b3mEdVm9hwsVhp+V7gflHvk7g3hd56MSUCqf1JlbzxeqPtx1wVn8h9V66joe1L2T1UNy2PpoojIPjr83c+PFitNzVh1wpv97ck12pMKpBVGwQRzKSLGI99jkH05LsEOkBT/svGCwOwGGR+2wAn3BrGvW8Bg7PJXOafnT28/7zctE1dwrjBXooduray7WfD7t/657EBRgt3okNw04vC0KH8+r80Z4LkhTDguyMC4hfLrpCjxvvN2E9Wo3wIdg8ovMVMd34hyHUCBkLaFqgcBGgfB+aMMCn183DWwFxADH8Vkhu3OQDiwQUfDY1Kg1W9R61DSj2EgGtdW06ZcrrIAY0Ov5bQf8qUt3fk/jViBrhkFzIoFCsQuj0yA+fx5qtdj3KdXKurc/1af8bqWBv33/o5DLwpunVzcccPdmbj1bkc9XKm7H7/nB/dCDpMj2BTYxnnJdCE0HRrcgCw1no2amXEsve5Wmw0Z+euBvX7zxS6hH4KPHGxsnoW71e86uW63UU2y4JeJDQUAhUTUICkWT/x3VrgFam0qlbN3cK77jrui6uRdvvWheuPnS09ze7nb9xHaItIxEFIgqgCgUwpFnVBoEhdToXUpng1y4+ZsX/EjQze12e9Msp3bc9DUca+yc9DtAMhSvQ1+ARrF7EQohNq9GXvnWSDVkoscy1Qna7TSr/FA7iCF3uVDkvdDwMO5dZIE7pYvnRmIFxJD9o4ldwDEPx09Ty4VzsSpcQQHxkU/h+DyqPdCMxkOsgBjCJ+f6QiLhO72Owwt6sjqhK1yssWICTUZW80J4stohphrIyPG8rBvI7AZ2hcLbJ9f6ywoq3SV5Rpb1fPjSRfQGP74MpNKrtHzXX3rz45UHh73eHDhuZ+a7V2rmi7jUcQdMgzo0nqUng+nfYM0UTuKhzUPN1E5p0kJSCgGpHp5pHU0cPBT/s57MeqX7wRYYXOfODwfvz+7LYV0edgLObB3A+5brnx9k7mfzz1pvml+v+BU2de5Ay2WzxUQSPP53hzgfCBOffsc0qt3gh0AvrG6CMqbCl19i+Ms83q2Ie3AR274mbovFYrFYLBaLpbj8DxSjrZx263QNAAAAAElFTkSuQmCC" alt="GoPablo Renovation Logo" />
+              </a>
+              <a class="footer-social-link" href="/">Instagram</a>
+              <a class="footer-social-link" href="/">Facebook</a>
             </div>
-            <nav aria-label="Footer navigation">
-              <ul class="footer-nav">
-                <li><a href="#about" class="footer-link">About</a></li>
-                <li><a href="#services" class="footer-link">Services</a></li>
-                <li><a href="#steps" class="footer-link">Steps</a></li>
-                <li><a href="#projects" class="footer-link">Projects</a></li>
-                <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
-                <li><a href="#faq" class="footer-link">FAQ</a></li>
-                <li><a href="#contact" class="footer-link">Contact</a></li>
-              </ul>
-            </nav>
             <div class="footer-contact">
               <div class="footer-contact-group">
-                <p class="footer-contact-label">Call or Text</p>
-                <a class="footer-contact-link" href="tel:+19767855434">+1 976 785 5434</a>
-              </div>
-              <div class="footer-contact-group">
                 <p class="footer-contact-label">Send Message</p>
-                <a class="footer-contact-link" href="mailto:email@gmail.com">email@gmail.com</a>
+                <a class="footer-contact-link" href="mailto:">email@gmail.com</a>
               </div>
               <div class="footer-contact-group">
-                <p class="footer-contact-label">Service Area</p>
-                <p class="footer-contact-text">
-                  Ottawa · Nepean · Barrhaven <br>
-                  Kanata · Stittsville · Orleans
-                </p>
+                <p class="footer-contact-label">Call or Text</p>
+                <a class="footer-contact-link" href="tel:+14377747807">(437) 774-7807</a>
               </div>
+              <div class="footer-contact-group">
+                <p class="footer-contact-label">Service Areas</p>
+                <p class="footer-contact-link">Ottawa - Nepean - Barrhaven <br> Kanata - Stittsville - Orleans</p>
+              </div>
+            </div>
+            <div class="footer-links-group">
+              <nav class="footer-nav" aria-label="Footer navigation">
+                <ul>
+                  <li><a href="#about" class="footer-link">About</a></li>
+                  <li><a href="#services" class="footer-link">Services</a></li>
+                  <li><a href="#steps" class="footer-link">Steps</a></li>
+                  <li><a href="#projects" class="footer-link">Projects</a></li>
+                  <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+                  <li><a href="#faq" class="footer-link">FAQ</a></li>
+                  <li><a href="#contact" class="footer-link">Contact</a></li>
+                </ul>
+              </nav>
             </div>
           </div>
           <div class="footer-bottom">
-            <p class="footer-copy">© 2025 GoPablo Renovation. All rights reserved.</p>
+            <p class="footer-copy">© 2026 GoPablo Renovation. All rights reserved.</p>
             <div class="footer-legal">
               <a class="footer-legal-link" href="">Privacy Policy</a>
               <a class="footer-legal-link" href="">Terms of Use</a>
@@ -618,5 +659,4 @@
       </footer>
     </main>
   </body>
-
 </html>
