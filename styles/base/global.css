@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-gutter: stable;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -50,4 +56,16 @@ main {
 
 .accent-text {
   color: var(--text-accent);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }

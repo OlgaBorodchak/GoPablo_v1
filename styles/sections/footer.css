@@ -5,6 +5,7 @@
 .footer-main {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 3em 0;
 }
 
@@ -24,12 +25,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0.5em; 
+  gap: 0.5em;
 }
 
 .footer-link {
   color: hsl(0, 0%, 100%);
-  font-size: var(--fs-compact);
+  font-size: var(--fs-sm);
   text-transform: uppercase;
 }
 
@@ -41,7 +42,8 @@
 .footer-contact {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 2em;
+  text-align: center;
 }
 
 .footer-contact-label {
@@ -54,6 +56,17 @@
 .footer-contact-link {
   color: hsl(0, 0%, 100%);
   font-family: var(--font-body);
+  font-size: var(--fs-sm);
+}
+
+.footer-links-group {
+  text-align: center;
+}
+
+.footer-social-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 .footer-social-link {
@@ -63,7 +76,7 @@
   color: var(--text-on-dark);
   border: 1px solid var(--border-on-dark);
   font-size: var(--fs-sm);
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   transition: all 0.3s;
 }
 
