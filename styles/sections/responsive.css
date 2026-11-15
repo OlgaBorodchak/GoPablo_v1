@@ -177,17 +177,35 @@
     width: 28px;
   }
 
-  .project {
-    grid-template-columns: 1fr;
-  }
-
   .project-image {
-    height: 50vh;
-  }
+  aspect-ratio: 4 / 3;
+}
 
-  .project-content {
-    padding: 2em 0;
-  }
+.project-caption {
+  position: static;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1em 0 0;
+  border-top: 0;
+}
+
+.project-link {
+  display: block;
+  text-align: center;
+}
+
+.projects-thumbs {
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.project-thumb-image {
+  aspect-ratio: 1 / 1;
+}
+
+.project-thumb-label {
+  display: none;
+}
 
   .footer-cta-title {
     font-size: 1.5rem;

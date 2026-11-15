@@ -59,3 +59,17 @@ document.querySelectorAll('.faq-filter-btn').forEach((btn) => {
     })
   })
 })
+
+const thumbs = document.querySelectorAll('.project-thumb')
+const panels = document.querySelectorAll('.projects-stage .project')
+
+thumbs.forEach((thumb, i) => {
+  thumb.addEventListener('click', () => {
+    thumbs.forEach((t, j) => {
+      const on = i === j
+      t.classList.toggle('is-active', on)
+      t.setAttribute('aria-selected', on)
+      panels[j].hidden = !on
+    })
+  })
+})
